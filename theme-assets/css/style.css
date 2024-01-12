@@ -30,3 +30,83 @@ nav.main-menu.static-top.navbar-dark.navbar.navbar-expand-lg.fixed-top.mb-1.navb
 }svg#loader{
     background: url('../images/3a84e6dcb2423524f008b56aee4ba9e7.jpeg');
 }
+footer.footer.static-bottom.footer-dark.footer-custom-class {
+    background: #f79377;
+}
+
+section#contacts {
+    background: #f79377;
+}
+
+div#disclaimer {
+    background: #f79377;
+}
+
+section#roadmap {
+    background: #f79377;
+}
+div#tokeee {
+    background: #f79377;
+    margin-top: -80px;
+    padding-top: 70px;
+}
+
+
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    background: #de5649 !important;
+}
+.bg-color-1 p {
+    color: white !important;
+}
+
+@media screen and (max-width: 480px){
+    button.owl-next {
+        right: 19%;
+    }
+    
+    button.owl-prev {left: 23%;}
+    .bg-color-1 p {
+        color: white !important;
+    }
+    
+    button.owl-next {
+        right: 19%;
+    }
+    
+    button.owl-prev {left: 23%;}
+    
+    .navbar.navbar-absolute {
+        background: #1b0723;
+        padding: 2px;
+    }
+    
+    section#about {
+        padding-bottom: 0;
+    }
+    
+    .protect {
+        padding-top: 50px;
+    }
+    
+    .protect_bg {
+        padding-top: 0;
+    }
+    
+    section#roadmap {
+        padding-top: 0;
+    }
+    
+    div#disclaimer {
+        padding-top: 0;
+    }
+    
+    section#contacts {
+        padding-top: 0;
+    }
+    
+    section#contacts {
+        padding-bottom: 0;
+    }
+    
+}
