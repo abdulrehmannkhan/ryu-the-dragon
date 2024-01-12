@@ -1,0 +1,32 @@
+.head-area .head-content .banner-content h3 {
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.head-content.container-fluid.d-flex.align-items-center:before {
+    content: '';
+    background: #0000005c;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+section#introduction:before{
+    content: '';
+    background: #0000005c;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.desktop{
+    background: url('../images/3a84e6dcb2423524f008b56aee4ba9e7.jpeg');
+}
+nav.main-menu.static-top.navbar-dark.navbar.navbar-expand-lg.fixed-top.mb-1.navbar-fixed.navbar-shadow {
+    background: #0d0122;
+}svg#loader{
+    background: url('../images/3a84e6dcb2423524f008b56aee4ba9e7.jpeg');
+}

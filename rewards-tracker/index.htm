@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     
+        <title>Forever Shiba ($4EVER) Rewards Dashboard</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="../assets/favico.png">
+
+        
+        <!-- Bootstrap icons-->
+        <link href="../npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css">
+        <!-- Google fonts-->
+        <link href="../css-1.css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" id="google-fonts-1-css" media="all" href="../css-2.css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=5.8.1">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body style="background-color: #062c39 !important;">
+      
+        <!-- Masthead-->
+        <header class="masthead" style="background-color: #062c39 !important;">
+            <div class="container position-relative">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8">
+                        <div class="text-center text-white">
+                            <!-- Page heading-->
+                           
+                            <img src="../theme-assets/images/frontlogo.png" style="width:30%;">
+                            <h1 class="mb-5">Check your Forever Shiba rewards:</h1>
+                       
+                                <div class="row">
+                                    <div class="col">
+                                        <input class="form-control form-control-lg" id="walletaddress" placeholder="Your Wallet Address">
+            
+                                    </div>
+                                    <div class="col-auto">
+                                        
+                                        <input class="btn btn-danger btn-lg" id="LoadInfo" type="button" style="cursor: pointer; margin:0px !important" onclick="" value="Check">
+                                    
+                                    </div>
+                                </div>
+                             
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Icons Grid-->
+        <section id="resultsdiv" class="features-icons bg-dark text-center" style="background-color: #062c39 !important;">
+
+
+            <div class="container" id="showloading">
+                
+                <div class="row text-center" style="margin-bottom:2.5rem">
+                    <div class="col-lg-12">
+                        <img src="assets/img/Infinity-1.5s-200px.gif"><br>
+                        Waiting for wallet address ...
+                    </div>
+                    </div>
+                    </div>
+
+            <div class="container" id="showjq" style="display:none">
+                
+                <div class="row" style="margin-bottom:2.5rem">
+                    <div class="col-lg-12">
+                        <h5>Wallet Address: </h5>
+                        <p class="mb-0"><span style=" overflow-wrap: break-word;" id="walletadd"></span></p>
+                  
+                        </div>  
+                        </div>  
+                
+                <div class="row" id="borderboxes">
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex"><i class="bi-wallet2 m-auto text-primary"></i></div>
+                            <h3>Forever Shiba Balance</h3>
+                            <p class="lead mb-0" id="totaltoken"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex"><i class="bi-gift m-auto text-primary"></i></div>
+                            <h3>Total Rewards Paid</h3>
+                            <p class="lead mb-0" id="totalrewards"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex"><i class="bi-stopwatch m-auto text-primary"></i></div>
+                            <h3>Pending Rewards</h3>
+                            <p class="lead mb-0" id="soonrewards">0</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top:5rem">
+                    <div class="col-lg-12">
+                        <h4>Total amount of rewards for all investors since the beginning:</h4>
+                        <p class="lead mb-0"><span id="AllRewards"></span></p>
+                  
+                        </div>  
+                        </div>   
+
+
+
+
+                   
+            </div>
+      
+            <div class="container">
+            <div class="row" style="margin-top:10rem">
+               
+                <div class="col-lg-12">
+                    
+                    <a class="btn btn-danger" href="../swap.html?outputCurrency=0x79e5f1efc5374cfc8555f6907b8c8b13ec153d63">Buy Forever Shiba</a>
+                    <a class="btn btn-danger" href="https://t.me/forevershiba">Join Telegram Group</a>
+                    <a class="btn btn-danger" href="../index.htm">Back to Home</a>
+
+              
+                    </div>  
+                    </div>   
+                </div>
+               
+        </section>
+     
+        
+     
+
+     
+       <script src="../npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-min.js"></script>
+  
+       <!-- <script src="js/index.js"></script> -->
+        <script type="text/javascript" src="../ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+        <script type="text/javascript" src="../web3@1.2.11/dist/web3.min.js"></script>
+        <script type="text/javascript" src="../@walletconnect/web3-provider@1.2.1/dist/umd/index.min.js"></script> 
+           <script src="js/s.js"></script>
+
+   
+    </body>
+</html>
